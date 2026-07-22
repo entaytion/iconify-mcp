@@ -1,0 +1,38 @@
+{
+  "name": "iconify-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching and fetching icons from Iconify — 200k+ icons, 150+ sets",
+  "type": "module",
+  "main": "./index.js",
+  "bin": {
+    "iconify-mcp": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "iconify",
+    "icons",
+    "model-context-protocol",
+    "crush",
+    "claude",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entaytion/iconify-mcp.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Entaytion",
+    "email": "entaytion@gmail.com",
+    "url": "https://entaytion.is-a.dev"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
